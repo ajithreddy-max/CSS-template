@@ -1,0 +1,356 @@
+*{
+   margin: 0px;
+}
+/* body{
+    background-color: red;
+} */
+/* div{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+} */
+main{
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url("https://themewagon.github.io/restoran/img/bg-hero.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+nav>div:nth-child(1)>a{
+    width: 300px;
+    color:orange;
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+nav>div:nth-child(2)>a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    top: 20px;
+    left: 50px;
+    color: whitesmoke;
+    align-items: center;
+    font-weight: bold;
+
+}
+nav>div:nth-child(2)>a:hover{
+    background-color: palegreen;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+
+nav>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+   
+
+}
+
+nav>div:nth-child(2)>button{
+     color: whitesmoke;
+    background-color: orange;
+    border: none;
+    padding: 17px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+   
+}
+
+nav>div:nth-child(2)>button:hover{
+    background-color: rgb(232, 154, 11);
+    color: black;
+}
+main>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main>div:nth-child(2)>div:nth-child(2){
+    background-image: url("https://themewagon.github.io/restoran/img/hero.png");
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    left: 900px;
+    top: 150px;
+    animation: rotate 10s linear 0s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+main>div:nth-child(2)>div:nth-child(1){
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 100px;
+    top: 260px;
+    /* color: whitesmoke; */
+}
+
+main>div:nth-child(1)>i{
+  
+    font-size: 100px;
+}
+main>div:nth-child(2)>div:nth-child(1)>h1{
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main>div:nth-child(2)>div:nth-child(1)>p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: initial;
+}
+
+main>div:nth-child(2)>div:nth-child(1)>button{
+    background-color: orange;
+    color: whitesmoke;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;    
+}
+
+main>div:nth-child(2)>div:nth-child(1)>button:hover{
+    background-color: rgb(232, 154, 11);
+    color: black;
+}
+
+section{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+section>div>h4{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-size: 20px;
+}
+
+section>div>p{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 15px;
+}
+
+section>div{
+    width: 300px;
+    height: 300px;
+    /* background-color: white; */
+    position: relative;
+    box-shadow: 8px 8px 18px rgba(0,0,0,0.5);
+
+}
+section>div:hover{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    transform: scale(1.07);
+    transition: all 0.3s ease-in-out;
+    background-color: orange;
+    color: white;
+}
+
+aside:nth-child(3){
+    height: 900px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* body>aside:nth-child(3){
+    background-color: rgb(97, 7, 206);
+    width: 100%;
+    height: 900px;
+} */
+
+
+aside>div:nth-child(1){
+    width: 50%;
+    height: 800px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 200px 200px;
+    gap: 100px;
+    /* position: absolute;
+    left: 20px; */
+    
+
+}
+aside>div:nth-child(1)>div:nth-child(1){
+    background-image: url("https://themewagon.github.io/restoran/img/about-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px ;
+    width: 300px;
+    left: 20px;
+    position: relative;
+    left: 20px;
+    
+}
+
+aside>div:nth-child(1)>div:nth-child(2){
+    background-image: url("https://themewagon.github.io/restoran/img/about-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+}
+
+aside>div:nth-child(1)>div:nth-child(3){
+    background-image: url("https://themewagon.github.io/restoran/img/about-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+}
+
+aside>div:nth-child(1)>div:nth-child(4){
+    background-image: url("https://themewagon.github.io/restoran/img/about-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 40px;
+    height: 300px;
+    width: 300px;
+}
+aside>div:nth-child(2){
+    width: 50%;
+    height: 800px;
+    background-color: whitesmoke;
+
+}
+
+aside>div:nth-child(2)>h1{
+    position: relative;
+   left: 50px;
+    top: 50px;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+aside>div:nth-child(2)>h2{
+    position: relative;
+    left: 50px;
+    top: 60px;
+    font-size: 40px;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+aside>div:nth-child(2)>p{
+    position: relative;
+    left: 50px;
+    top: 90px;
+    width: 400px;
+    color: black;
+
+}
+
+aside>div:nth-child(2)>div:nth-child(5){
+    position: relative;
+    left: 50px;
+    top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+aside>div:nth-child(2)>div:nth-child(5)>h1{
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+aside>div:nth-child(2)>div:nth-child(5)>b:nth-child(2){
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    top: 20px;
+}
+
+aside>div:nth-child(2)>div:nth-child(6)>h1{
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    bottom: 10px;
+}
+
+aside>div:nth-child(2)>div:nth-child(6)>b:nth-child(2){
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    top:15px;
+}
+
+aside>div:nth-child(2)>div:nth-child(6){
+    position: relative;
+    left: 450px;
+    top: 80px;
+}
+
+/* aside>div:nth-child(2)>h1{
+    position: relative;
+    right: 200px;
+    bottom: 110px;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+aside>div:nth-child(2)>h2{
+    position: relative;
+    font-size: 40px;
+    right: 200px;
+    bottom: 110px;
+    font-weight: bolder
+
+}
+
+aside>div:nth-child(5)>p{
+    position: relative;
+    right: 200px;
+    bottom: 110px;
+    color: gray;
+
+} */
