@@ -4,12 +4,12 @@
 /* body{
     background-color: red;
 } */
-/* div{
+div{
     width: 90%;
     height: 100%;
     margin: auto;
     background-color: whitesmoke;
-} */
+}
 main{
     background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url("https://themewagon.github.io/restoran/img/bg-hero.jpg");
     height: 100vh;
