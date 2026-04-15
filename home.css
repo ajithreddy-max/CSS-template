@@ -260,10 +260,10 @@ aside>div:nth-child(2){
 
 aside>div:nth-child(2)>h1{
     position: relative;
-   left: 50px;
+    left: 50px;
     top: 50px;
     color: orange;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: italic;
 }
 
 aside>div:nth-child(2)>h2{
@@ -295,7 +295,7 @@ aside>div:nth-child(2)>div:nth-child(5){
 aside>div:nth-child(2)>div:nth-child(5)>h1{
     color: orange;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 aside>div:nth-child(2)>div:nth-child(5)>b:nth-child(2){
@@ -303,7 +303,7 @@ aside>div:nth-child(2)>div:nth-child(5)>b:nth-child(2){
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     left: 50px;
-    font-size: 30px;
+    font-size: 32px;
     top: 20px;
 }
 
